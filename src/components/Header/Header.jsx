@@ -5,7 +5,6 @@ import useWindowWidth, { mobile } from "../../hooks/useWinowWidth";
 
 function Header() {
   const windowWidth = useWindowWidth();
-  console.log("render Header");
 
   return (
     <header className="header">
