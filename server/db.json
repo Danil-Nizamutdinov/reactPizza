@@ -1,0 +1,657 @@
+{
+  "pizzas": [
+    {
+      "name": "Пицца от шефа",
+      "id": "1",
+      "sizes": [
+        {
+          "name": "Маленькая",
+          "price": 0,
+          "toggler": true,
+          "size": "25 см",
+          "gram": "400 г"
+        },
+        {
+          "name": "Средняя",
+          "price": 50,
+          "toggler": false,
+          "size": "30 см",
+          "gram": "610 г"
+        },
+        {
+          "name": "Большая",
+          "price": 100,
+          "toggler": false,
+          "size": "35 см",
+          "gram": "870 г"
+        }
+      ],
+      "dough": [
+        { "name": "Тонкое", "toggler": true },
+        { "name": "Традиционное", "toggler": false }
+      ],
+      "toppings": [
+        {
+          "name": "Сырный бортик",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/bd896a42a5b44169ae9dfdc2573c34f2.png",
+          "price": 180,
+    
+          "toggler": false
+        },
+        {
+          "name": "Сливочная моцарелла",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+          "price": 80,
+          "toggler": false
+        },
+        {
+          "name": "Нежный цыпленнок",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA5B328D35A",
+          "price": 80,
+          "toggler": false
+        },
+        {
+          "name": "Острый халапеньо",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/46889eeb335b4bf18d7a565f4fbc9588.png",
+          "price": 60,
+          "toggler": false
+        }
+      ],
+      "compound": "Пастрами из мраморной говядины, сладкий перец, томаты, красный лук, чеснок, соус ткемали, моцарелла, фирменный томатный соус",
+      "totalPrice": 639,
+      "price": 639,
+      "mediumlImg": "https://dodopizza-a.akamaihd.net/static/Img/Products/d7bbbc4c74af442e8b9b3ea2faf3c941_292x292.webp",
+      "bigImg": "https://dodopizza-a.akamaihd.net/static/Img/Products/d7bbbc4c74af442e8b9b3ea2faf3c941_292x292.webp"
+    },
+    {
+      "name": "Сырная",
+      "id": "2",
+      "sizes": [
+        {
+          "name": "Маленькая",
+          "price": 0,
+          "toggler": true,
+          "size": "25 см",
+          "gram": "400 г"
+        },
+        {
+          "name": "Средняя",
+          "price": 50,
+          "toggler": false,
+          "size": "30 см",
+          "gram": "400 г"
+        },
+        {
+          "name": "Большая",
+          "price": 100,
+          "toggler": false,
+          "size": "35 см",
+          "gram": "400 г"
+        }
+      ],
+      "dough": [
+        { "name": "Тонкое", "toggler": true },
+        { "name": "Традиционное", "toggler": false }
+      ],
+      "toppings": [
+        {
+          "name": "Сырный бортик",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/bd896a42a5b44169ae9dfdc2573c34f2.png",
+          "price": 180,
+    
+          "toggler": false
+        },
+        {
+          "name": "Сливочная моцарелла",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+          "price": 80,
+          "toggler": false
+        },
+        {
+          "name": "Нежный цыпленнок",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA5B328D35A",
+          "price": 80,
+          "toggler": false
+        },
+        {
+          "name": "Острый халапеньо",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/46889eeb335b4bf18d7a565f4fbc9588.png",
+          "price": 60,
+          "toggler": false
+        }
+      ],
+      "compound": "Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо",
+      "totalPrice": 289,
+      "price": 289,
+      "mediumlImg": "https://dodopizza-a.akamaihd.net/static/Img/Products/d9c609f1422247f2b87b6293eb461ff0_292x292.webp",
+      "bigImg": "https://dodopizza-a.akamaihd.net/static/Img/Products/d9c609f1422247f2b87b6293eb461ff0_292x292.webp"
+    },
+    {
+      "name": "Пепперони фреш",
+      "id": "3",
+      "sizes": [
+        {
+          "name": "Маленькая",
+          "price": 0,
+          "toggler": true,
+          "size": "25 см",
+          "gram": "330 г"
+        },
+        {
+          "name": "Средняя",
+          "price": 50,
+          "toggler": false,
+          "size": "30 см",
+          "gram": "490 г"
+        },
+        {
+          "name": "Большая",
+          "price": 100,
+          "toggler": false,
+          "size": "35 см",
+          "gram": "670 г"
+        }
+      ],
+      "dough": [
+        { "name": "Тонкое", "toggler": true },
+        { "name": "Традиционное", "toggler": false }
+      ],
+      "toppings": [
+        {
+          "name": "Сырный бортик",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/bd896a42a5b44169ae9dfdc2573c34f2.png",
+          "price": 180,
+    
+          "toggler": false
+        },
+        {
+          "name": "Сливочная моцарелла",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+          "price": 80,
+          "toggler": false
+        },
+        {
+          "name": "Нежный цыпленнок",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA5B328D35A",
+          "price": 80,
+          "toggler": false
+        },
+        {
+          "name": "Острый халапеньо",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/46889eeb335b4bf18d7a565f4fbc9588.png",
+          "price": 60,
+          "toggler": false
+        }
+      ],
+      "compound": "Пикантная пепперони, увеличенная порция моцареллы, томаты, фирменный томатный соус",
+      "totalPrice": 500,
+      "price": 500,
+      "mediumlImg": "https://dodopizza-a.akamaihd.net/static/Img/Products/27c9bbd0af3a4d1d84a086d9c2f1656d_292x292.webp",
+      "bigImg": "https://dodopizza-a.akamaihd.net/static/Img/Products/27c9bbd0af3a4d1d84a086d9c2f1656d_292x292.webp"
+    },
+    {
+      "name": "Двойной цыпленок",
+      "id": "4",
+      "sizes": [
+        {
+          "name": "Маленькая",
+          "price": 0,
+          "toggler": true,
+          "size": "25 см",
+          "gram": "330 г"
+        },
+        {
+          "name": "Средняя",
+          "price": 50,
+          "toggler": false,
+          "size": "30 см",
+          "gram": "490 г"
+        },
+        {
+          "name": "Большая",
+          "price": 100,
+          "toggler": false,
+          "size": "35 см",
+          "gram": "670 г"
+        }
+      ],
+      "dough": [
+        { "name": "Тонкое", "toggler": true },
+        { "name": "Традиционное", "toggler": false }
+      ],
+      "toppings": [
+        {
+          "name": "Сырный бортик",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/bd896a42a5b44169ae9dfdc2573c34f2.png",
+          "price": 180,
+    
+          "toggler": false
+        },
+        {
+          "name": "Сливочная моцарелла",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+          "price": 80,
+          "toggler": false
+        },
+        {
+          "name": "Нежный цыпленнок",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA5B328D35A",
+          "price": 80,
+          "toggler": false
+        },
+        {
+          "name": "Острый халапеньо",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/46889eeb335b4bf18d7a565f4fbc9588.png",
+          "price": 60,
+          "toggler": false
+        }
+      ],
+      "compound": "Цыпленок, моцарелла, фирменный соус альфредо",
+      "totalPrice": 369,
+      "price": 369,
+      "mediumlImg": "https://dodopizza-a.akamaihd.net/static/Img/Products/ddadb2bd7f2d40459acddbe2f51a2389_292x292.webp",
+      "bigImg": "https://dodopizza-a.akamaihd.net/static/Img/Products/ddadb2bd7f2d40459acddbe2f51a2389_292x292.webp"
+    },
+    {
+      "name": "Ветчина и сыр",
+      "id": "5",
+      "sizes": [
+        {
+          "name": "Маленькая",
+          "price": 0,
+          "toggler": true,
+          "size": "25 см",
+          "gram": "330 г"
+        },
+        {
+          "name": "Средняя",
+          "price": 50,
+          "toggler": false,
+          "size": "30 см",
+          "gram": "490 г"
+        },
+        {
+          "name": "Большая",
+          "price": 100,
+          "toggler": false,
+          "size": "35 см",
+          "gram": "670 г"
+        }
+      ],
+      "dough": [
+        { "name": "Тонкое", "toggler": true },
+        { "name": "Традиционное", "toggler": false }
+      ],
+      "toppings": [
+        {
+          "name": "Сырный бортик",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/bd896a42a5b44169ae9dfdc2573c34f2.png",
+          "price": 180,
+    
+          "toggler": false
+        },
+        {
+          "name": "Сливочная моцарелла",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+          "price": 80,
+          "toggler": false
+        },
+        {
+          "name": "Нежный цыпленнок",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA5B328D35A",
+          "price": 80,
+          "toggler": false
+        },
+        {
+          "name": "Острый халапеньо",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/46889eeb335b4bf18d7a565f4fbc9588.png",
+          "price": 60,
+          "toggler": false
+        }
+      ],
+      "compound": "Ветчина, моцарелла, фирменный соус альфредо",
+      "totalPrice": 369,
+      "price": 369,
+      "mediumlImg": "https://dodopizza-a.akamaihd.net/static/Img/Products/27c9bbd0af3a4d1d84a086d9c2f1656d_292x292.webp",
+      "bigImg": "https://dodopizza-a.akamaihd.net/static/Img/Products/27c9bbd0af3a4d1d84a086d9c2f1656d_292x292.webp"
+    },
+    {
+      "name": "Пепперони фреш",
+      "id": "6",
+      "sizes": [
+        {
+          "name": "Маленькая",
+          "price": 0,
+          "toggler": true,
+          "size": "25 см",
+          "gram": "330 г"
+        },
+        {
+          "name": "Средняя",
+          "price": 50,
+          "toggler": false,
+          "size": "30 см",
+          "gram": "490 г"
+        },
+        {
+          "name": "Большая",
+          "price": 100,
+          "toggler": false,
+          "size": "35 см",
+          "gram": "670 г"
+        }
+      ],
+      "dough": [
+        { "name": "Тонкое", "toggler": true },
+        { "name": "Традиционное", "toggler": false }
+      ],
+      "toppings": [
+        {
+          "name": "Сырный бортик",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/bd896a42a5b44169ae9dfdc2573c34f2.png",
+          "price": 180,
+    
+          "toggler": false
+        },
+        {
+          "name": "Сливочная моцарелла",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+          "price": 80,
+          "toggler": false
+        },
+        {
+          "name": "Нежный цыпленнок",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA5B328D35A",
+          "price": 80,
+          "toggler": false
+        },
+        {
+          "name": "Острый халапеньо",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/46889eeb335b4bf18d7a565f4fbc9588.png",
+          "price": 60,
+          "toggler": false
+        }
+      ],
+      "compound": "Бекон, сыры чеддер и пармезан, моцарелла, томаты, красный лук, чеснок, фирменный соус альфредо, итальянские травы",
+      "totalPrice": 469,
+      "price": 469,
+
+      "mediumlImg": "https://dodopizza-a.akamaihd.net/static/Img/Products/9f54fa5d2d204f5fa70579e2e1982d03_292x292.webp",
+      "bigImg": "https://dodopizza-a.akamaihd.net/static/Img/Products/9f54fa5d2d204f5fa70579e2e1982d03_292x292.webp"
+    },
+    {
+      "name": "Бургер-пицца",
+      "id": "7",
+      "sizes": [
+        {
+          "name": "Маленькая",
+          "price": 0,
+          "toggler": true,
+          "size": "25 см",
+          "gram": "330 г"
+        },
+        {
+          "name": "Средняя",
+          "price": 50,
+          "toggler": false,
+          "size": "30 см",
+          "gram": "490 г"
+        },
+        {
+          "name": "Большая",
+          "price": 100,
+          "toggler": false,
+          "size": "35 см",
+          "gram": "670 г"
+        }
+      ],
+      "dough": [
+        { "name": "Тонкое", "toggler": true },
+        { "name": "Традиционное", "toggler": false }
+      ],
+      "toppings": [
+        {
+          "name": "Сырный бортик",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/bd896a42a5b44169ae9dfdc2573c34f2.png",
+          "price": 180,
+    
+          "toggler": false
+        },
+        {
+          "name": "Сливочная моцарелла",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+          "price": 80,
+          "toggler": false
+        },
+        {
+          "name": "Нежный цыпленнок",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA5B328D35A",
+          "price": 80,
+          "toggler": false
+        },
+        {
+          "name": "Острый халапеньо",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/46889eeb335b4bf18d7a565f4fbc9588.png",
+          "price": 60,
+          "toggler": false
+        }
+      ],
+      "compound": "Ветчина, маринованные огурчики, томаты, красный лук, чеснок, соус бургер, моцарелла, фирменный томатный соус",
+      "totalPrice": 419,
+      "price": 419,
+
+      "mediumlImg": "https://dodopizza-a.akamaihd.net/static/Img/Products/3a948b9d5af14d219e2c54282229755a_292x292.webp",
+      "bigImg": "https://dodopizza-a.akamaihd.net/static/Img/Products/3a948b9d5af14d219e2c54282229755a_292x292.webp"
+    },
+    {
+      "name": "Пепперони",
+      "id": "8",
+      "sizes": [
+        {
+          "name": "Маленькая",
+          "price": 0,
+          "toggler": true,
+          "size": "25 см",
+          "gram": "330 г"
+        },
+        {
+          "name": "Средняя",
+          "price": 50,
+          "toggler": false,
+          "size": "30 см",
+          "gram": "490 г"
+        },
+        {
+          "name": "Большая",
+          "price": 100,
+          "toggler": false,
+          "size": "35 см",
+          "gram": "670 г"
+        }
+      ],
+      "dough": [
+        { "name": "Тонкое", "toggler": true },
+        { "name": "Традиционное", "toggler": false }
+      ],
+      "toppings": [
+        {
+          "name": "Сырный бортик",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/bd896a42a5b44169ae9dfdc2573c34f2.png",
+          "price": 180,
+    
+          "toggler": false
+        },
+        {
+          "name": "Сливочная моцарелла",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+          "price": 80,
+          "toggler": false
+        },
+        {
+          "name": "Нежный цыпленнок",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA5B328D35A",
+          "price": 80,
+          "toggler": false
+        },
+        {
+          "name": "Острый халапеньо",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/46889eeb335b4bf18d7a565f4fbc9588.png",
+          "price": 60,
+          "toggler": false
+        }
+      ],
+      "compound": "Пикантная пепперони, увеличенная порция моцареллы, фирменный томатный соус",
+      "totalPrice": 419,
+      "price": 419,
+      "mediumlImg": "https://dodopizza-a.akamaihd.net/static/Img/Products/fb9cc5b8ff2e47bdbcbdcb5930cddf06_292x292.webp",
+      "bigImg": "https://dodopizza-a.akamaihd.net/static/Img/Products/fb9cc5b8ff2e47bdbcbdcb5930cddf06_292x292.webp"
+    },
+    {
+      "name": "Домашняя",
+      "id": "9",
+      "sizes": [
+        {
+          "name": "Маленькая",
+          "price": 0,
+          "toggler": true,
+          "size": "25 см",
+          "gram": "330 г"
+        },
+        {
+          "name": "Средняя",
+          "price": 50,
+          "toggler": false,
+          "size": "30 см",
+          "gram": "490 г"
+        },
+        {
+          "name": "Большая",
+          "price": 100,
+          "toggler": false,
+          "size": "35 см",
+          "gram": "670 г"
+        }
+      ],
+      "dough": [
+        { "name": "Тонкое", "toggler": true },
+        { "name": "Традиционное", "toggler": false }
+      ],
+      "toppings": [
+        {
+          "name": "Сырный бортик",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/bd896a42a5b44169ae9dfdc2573c34f2.png",
+          "price": 180,
+    
+          "toggler": false
+        },
+        {
+          "name": "Сливочная моцарелла",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png",
+          "price": 80,
+          "toggler": false
+        },
+        {
+          "name": "Нежный цыпленнок",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA5B328D35A",
+          "price": 80,
+          "toggler": false
+        },
+        {
+          "name": "Острый халапеньо",
+          "img": "https://dodopizza-a.akamaihd.net/static/Img/Ingredients/46889eeb335b4bf18d7a565f4fbc9588.png",
+          "price": 60,
+          "toggler": false
+        }
+      ],
+      "compound": "Пикантная пепперони, ветчина, маринованные огурчики, томаты, моцарелла, фирменный томатный соус",
+      "totalPrice": 419,
+      "price": 419,
+      "mediumlImg": "https://dodopizza-a.akamaihd.net/static/Img/Products/1737ebbfb03148a291f8b3060cd9f0a1_292x292.webp",
+      "bigImg": "https://dodopizza-a.akamaihd.net/static/Img/Products/1737ebbfb03148a291f8b3060cd9f0a1_292x292.webp"
+    }
+  ],
+  "snacks": [
+    {
+      "name": "Картофель из печи",
+      "compound": "Запеченная в печи картошечка. Привычный вкус и мало масла",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/25f84c8850cf44a39387b9c996d6bea5_292x292.webp",
+      "totalPrice": 209,
+      "currentPrice": 209
+    },
+    {
+      "name": "Куриные крылья",
+      "compound": "Куриные крылышки со специями и ароматом копчения. В порции присутствуют локтевые и плечевые части крылышек",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/0c880bb2f8b1403995e951a2af7d7d1d_292x292.webp",
+      "totalPrice": 379,
+      "currentPrice": 379
+    }
+  ],
+  "desserts": [
+    {
+      "name": "Чизкейк Нью-Йорк",
+      "compound": "Мы перепробовали тысячу десертов и наконец нашли любимца гостей — нежнейший творожный чизкейк",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/5a06bd533bb846f59cfb4b8c4e062f86_292x292.webp",
+      "totalPrice": 149,
+      "currentPrice": 149
+    },
+    {
+      "name": "Слоеные палочки с ананасами и брусникой",
+      "compound": "Здесь все сразу — брусника и ананас со сгущенкой на слоеном тесте",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/b61244b188fa4bcaa5c751f970954ffb_292x292.webp",
+      "totalPrice": 229,
+      "currentPrice": 229
+    },
+    {
+      "name": "Маффин Соленая карамель",
+      "compound": "Раз откусить — навсегда полюбить! Оцените яркое сочетание соленой карамели и арахиса",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/c3687909a9cf4064aabc5b07a166e848_292x292.webp",
+      "totalPrice": 99,
+      "currentPrice": 99
+    }
+  ],
+  "drinks": [
+    {
+      "name": "Добрый Кола",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/dc74c00bc0634933ba7194b99a164094_292x292.webp",
+
+      "totalPrice": 109,
+      "currentPrice": 109
+    },
+    {
+      "name": "Добрый Апельсин",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/f501c8e65f574f00bc7ab6ec4720e602_292x292.webp",
+      "currentPrice": 109,
+      "totalPrice": 109
+    },
+    {
+      "name": "Вода BonaAqua негазированная",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/a7e997aab2634625b3203d0f59563503_292x292.webp",
+      "currentPrice": 75,
+      "totalPrice": 75
+    },
+    {
+      "name": "Апельсиновый сок Rich",
+      "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/130d8f23009d4467b46e41cae70a7a1b_292x292.webp",
+      "totalPrice": 199,
+      "currentPrice": 199
+    }
+  ],
+  "city": ["Ульяновск", "Москва"],
+  "cooks": [
+    {
+      "name": "Иван",
+      "lastName": "Иванов",
+      "id": "1"
+    },
+    {
+      "name": "Евпатий",
+      "lastName": "Колаврат",
+      "id": "2"
+    },
+    {
+      "name": "Михаил",
+      "lastName": "Воронин",
+      "id": "3"
+    }
+  ]
+}

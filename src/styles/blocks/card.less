@@ -1,0 +1,176 @@
+// main: "../main.less"
+@import "../vars";
+
+.card_box {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  margin-top: 25px;
+}
+
+.card_content {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  padding-top: 160px;
+  border: 1px solid rgba(217, 86, 10, 0.6);
+  & .inputBox {
+    margin-bottom: 20px;
+    & span {
+      display: block;
+      color: #999;
+      padding-bottom: 5px;
+      font-size: 12px;
+      @media screen and (@mobile) {
+        font-size: 18px;
+      }
+    }
+  }
+
+  & .inputBox input,
+  select {
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    color: #444;
+    border: 1px solid rgba(217, 86, 10, 0.6);
+  }
+
+  & .flexbox {
+    display: flex;
+    gap: 15px;
+    & .inputBox {
+      flex: 1 1;
+    }
+  }
+
+  & .card_button {
+    width: 100%;
+    background: linear-gradient(45deg, #ff6900, #ffa200);
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s linear;
+    border: none;
+    border-radius: 5px;
+    &:hover {
+      letter-spacing: 2px;
+      opacity: 0.8;
+    }
+  }
+}
+
+.card_info {
+  margin-bottom: -50px;
+  position: relative;
+  height: 250px;
+  width: 300px;
+  @media screen and (@mobile) {
+    width: 400px;
+  }
+  .card_info_front {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, #ff6900, #ffa200);
+    border-radius: 5px;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transform: perspective(1000px) rotateY(0deg);
+    transition: transform 0.4s ease-out;
+
+    & .card_info_images {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 10px;
+      & img {
+        height: 50px;
+        width: 50px;
+      }
+    }
+
+    & .card_info_number {
+      padding: 30px 0;
+      font-size: 22px;
+      color: #fff;
+    }
+
+    & .flexbox {
+      display: flex;
+      & .box:nth-child(1) {
+        margin-right: auto;
+      }
+      & .box {
+        font-size: 15px;
+        color: #fff;
+      }
+    }
+  }
+
+  & .card_info_front_active {
+    transform: perspective(1000px) rotateY(180deg);
+  }
+
+  & .card_info_back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg, #ff6900, #ffa200);
+    border-radius: 5px;
+    padding: 20px 0;
+    text-align: right;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    transform: perspective(1000px) rotateY(180deg);
+    transition: transform 0.4s ease-out;
+
+    & .stripe {
+      background: #000;
+      width: 100%;
+      margin: 10px 0;
+      height: 50px;
+    }
+
+    & .card_info_back_box {
+      padding: 0 20px;
+      & span {
+        color: #fff;
+        font-size: 15px;
+      }
+
+      & .cvv_box {
+        height: 50px;
+        padding: 10px;
+        margin-top: 5px;
+        color: #fff;
+        border-radius: 5px;
+        width: 100%;
+      }
+
+      & img {
+        margin-top: 30px;
+        height: 30px;
+        width: 30px;
+      }
+    }
+  }
+
+  & .card_info_back_active {
+    transform: perspective(1000px) rotateY(0);
+  }
+}
+
+.cardType {
+  color: #fff;
+}

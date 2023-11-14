@@ -1,0 +1,73 @@
+// main: "../main.less"
+@import "../vars";
+
+.piazza_content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 40px 20px;
+  padding: 45px 0px;
+  @media screen and (@mobile) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media screen and (@desktop) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.pizza_box {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.pizza_info {
+  & h1 {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 20px;
+    margin: 10px 0px;
+  }
+  & p {
+    color: rgb(92, 99, 112);
+    font-size: 14px;
+    & span {
+      margin-right: 5px;
+    }
+  }
+
+  @media screen and (@mobile) {
+    min-height: 110px;
+  }
+}
+
+.drink_info {
+  min-height: 0;
+}
+
+.pizza_price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  align-items: center;
+  & span {
+    font-style: 16px;
+    font-weight: bold;
+  }
+  & .button_popup {
+    background-color: rgb(255, 240, 230);
+    color: rgb(209, 87, 0);
+    font-size: 16px;
+    border: none;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  & .button_popup:hover {
+    background-color: rgb(255, 205, 172);
+  }
+}
+
+.drink_price {
+  margin: 0;
+}

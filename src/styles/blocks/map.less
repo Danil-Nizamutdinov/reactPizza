@@ -1,0 +1,136 @@
+// main: "../main.less"
+
+.map {
+  margin-top: 25px;
+}
+
+.map_title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #ff6900;
+}
+
+.map_address_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  & .map_address_content {
+    margin: 10px;
+    width: 280px;
+    display: flex;
+
+    & div {
+      width: 100%;
+    }
+
+    & .map_adress_locality_select {
+      position: relative;
+
+      &::before {
+        content: "";
+
+        position: absolute;
+        top: 50%;
+        right: 18px;
+        transform: translateY(-50%);
+
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 6px 5px 0 5px;
+        border-color: rgba(0, 0, 0, 0.3) transparent;
+        border-radius: 1px;
+
+        pointer-events: none;
+      }
+
+      & .locality_conent_bars {
+        border-radius: 5px;
+
+        text-align: left;
+        background: #fff;
+        cursor: pointer;
+
+        &_active {
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: 0;
+          border-bottom: 1px solid rgba(255, 105, 0, 0.4);
+        }
+      }
+    }
+
+    & .locality_content_dropdown {
+      display: none;
+
+      position: absolute;
+      left: 0;
+      z-index: 1;
+
+      margin: 0;
+      padding: 0;
+
+      list-style-type: none;
+
+      width: 100%;
+      min-height: 110px;
+
+      background-color: #fff;
+      border: 1px solid rgba(255, 105, 0, 0.7);
+      border-top: 0;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+
+      font-size: 16px;
+      font-weight: 500;
+
+      &_active {
+        display: block;
+      }
+
+      & .locality_content_dropdown_item {
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition: all 0.2s;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #ff6900;
+          color: #fff;
+        }
+        &--dark:hover {
+          color: #000;
+          background-color: #fff;
+        }
+      }
+    }
+
+    & .map_address {
+      position: relative;
+      width: 100%;
+      height: 40px;
+      padding: 10px;
+      border: 1px solid rgba(255, 105, 0, 0.7);
+      border-radius: 5px;
+    }
+
+    & .map_address_house_kv {
+      width: 95%;
+    }
+
+    & label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    & button {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid rgba(255, 105, 0, 0.7);
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,4 +1,5 @@
 const path = require("path");
+const Dotenv = require("dotenv-webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ReactRefreshWebpackPlugin = require("@pmmmwh/react-refresh-webpack-plugin");
 
@@ -12,6 +13,7 @@ const plugins = [
   new HtmlWebpackPlugin({
     template: "./src/index.html",
   }),
+  new Dotenv(),
 ];
 
 if (process.env.SERVE) {
@@ -23,9 +25,8 @@ module.exports = {
   plugins,
   target,
   resolve: {
-    extensions: ["*", ".js", ".jsx", ".less"],
+    extensions: ["*", ".js", ".jsx", ".less", ".svg"],
   },
-
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -34,7 +35,6 @@ module.exports = {
 
     clean: true,
   },
-
   devtool: "source-map",
   devServer: {
     hot: true,
